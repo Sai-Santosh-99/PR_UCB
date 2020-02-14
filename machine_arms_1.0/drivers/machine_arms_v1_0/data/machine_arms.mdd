@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER machine_arms
+	OPTION supported_peripherals = (machine_arms);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = machine_arms;
+END DRIVER
